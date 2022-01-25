@@ -1,24 +1,22 @@
-package com.example.udemy.model;
+package com.example.udemy.models;
 
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import java.util.Objects;
 
 @Entity
 @Data
 @NoArgsConstructor
-public class Comment {
+public class Vote {
     @Id
     @GeneratedValue
     private Long id;
-    private String body;
+    private int vote;
 
-    //comment
+    //user
+    //link
 
 }

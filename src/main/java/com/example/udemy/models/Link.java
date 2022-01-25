@@ -1,4 +1,4 @@
-package com.example.udemy.model;
+package com.example.udemy.models;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,13 +10,13 @@ import javax.persistence.Id;
 @Entity
 @Data
 @NoArgsConstructor
-public class Vote {
+public class Link {
     @Id
     @GeneratedValue
     private Long id;
-    private int vote;
+    private String title;
+    private String url;
 
-    //user
-    //link
 
+//link
 }

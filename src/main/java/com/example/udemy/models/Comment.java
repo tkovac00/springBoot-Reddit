@@ -1,4 +1,4 @@
-package com.example.udemy.model;
+package com.example.udemy.models;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,13 +10,12 @@ import javax.persistence.Id;
 @Entity
 @Data
 @NoArgsConstructor
-public class Link {
+public class Comment {
     @Id
     @GeneratedValue
     private Long id;
-    private String title;
-    private String url;
+    private String body;
 
+    //comment
 
-//link
 }
