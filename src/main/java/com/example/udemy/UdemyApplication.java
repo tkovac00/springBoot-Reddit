@@ -19,7 +19,7 @@ public class UdemyApplication {
 		System.out.println("Welcome!");
 	}
 
-	@Bean
+	//@Bean
 	CommandLineRunner runner(LinkRepository linkRepository, CommentRepository commentRepository){
 		return args ->{
 			Link link = new Link("Spring Boot 2","https://start.spring.io/4");
